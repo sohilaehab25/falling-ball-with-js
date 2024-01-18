@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <input autocomplete="off" type="text" placeholder="Enter Your Name" required id="username" name="name" />
+        <button id="playButton" type="submit" class="btn" onclick="redirectToGame()">
+            Play
+        </button>
+    </div>
+
+    <div class="position">
+        <h1>Choose Levels</h1>
+
+        <label for="hardLevel" class="radio">
+            <input type="radio" name="myRadioField" id="hardLevel" class="radio_input" />
+            <div class="radio_radio"></div>
+            Hard Level
+        </label>
+
+        <label for="easyLevel" class="radio">
+            <input type="radio" name="myRadioField" id="easyLevel" class="radio_input" />
+            <div class="radio_radio"></div>
+            Easy Level
+        </label>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+
+</html>

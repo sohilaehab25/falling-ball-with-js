@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-image: url(Images/space.jpg);
+  width: 100vw;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+.control-button {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(10, 50, 100, 0.9);
+}
+
+.control-button button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  background-color: rgb(10, 5, 32);
+  padding: 15px 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+p {
+  color: rgb(12, 4, 80);
+  background: rgb(208, 216, 230);
+  display: inline-block;
+  border: 2px solid beige;
+  padding: 4px;
+}
+
+#timer {
+  color: rgb(12, 4, 80);
+  background: rgb(208, 216, 230);
+  display: inline-block;
+  border: 2px solid beige;
+  padding: 4px;
+}
+
+/* div{
+  color: rgb(1, 20, 36);
+  font-size: 35px;
+  background: rgb(208, 216, 230);
+  display: inline-block;
+  border: 2px solid beige;
+  padding: 4px;
+  padding-right: 15px;
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 700px;
+  
+  }
+  span{
+  color: rgb(1, 20, 36);
+    margin-left: 20px;
+  background-color: rgb(208, 216, 230);
+  
+
+  
+  } */

@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(Images/space.jpg);
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+input {
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+  padding-left: 10px;
+  margin-top: 300px;
+  margin-left: 570px;
+
+  font-weight: bold;
+  background: rgb(15, 2, 71);
+  color: honeydew;
+  opacity: 0.5;
+  text-align: center;
+  border-radius: 6px;
+  width: 290px;
+  height: 50px;
+  border: 2px solid rgb(213, 205, 210);
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  background: rgb(22, 7, 82);
+  padding: 12px 19px;
+  font-size: 20px;
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(248, 247, 245);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 670px;
+  border: 2px solid rgb(213, 205, 210);
+  padding-bottom: 30px;
+}
+input::placeholder {
+  color: rgb(247, 247, 244);
+}
+
+.btn :hover,
+.btn :focus,
+.btn :focus {
+  transform: scale(1.1);
+  color: aliceblue;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(212, 212, 207);
+}
+.container {
+  align-items: center;
+}
+
+.radio {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(3, 20, 49);
+}
+.radio_input {
+  display: none;
+}
+
+.radio_radio {
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.radio_radio::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgb(208, 216, 230);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+
+.radio_input:checked + .radio_radio::after {
+  transform: scale(1);
+}
+
+h1 {
+  color: rgb(3, 20, 49);
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.position {
+  position: absolute;
+  margin-left: 580px;
+}
